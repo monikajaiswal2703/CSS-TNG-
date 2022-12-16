@@ -1,0 +1,17 @@
+p
+{
+    background-color: palegreen;
+    width: 200px;
+    height: 300px;
+    margin-bottom: 10px;
+    background-color: hsl(0, 100%, 90%);	
+    background-color:rgba(120,180,150,0.5);
+    background-image: linear-gradient(to left,red,green);
+    /* background-image:radial-gradient(white, black); */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+p:hover
+{	
+    opacity: 0.5;
+}

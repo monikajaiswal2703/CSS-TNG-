@@ -1,0 +1,86 @@
+
+/* id selector */
+/* #para{
+    background-color: aquamarine;
+}
+
+#div1{
+    background-color: blue;
+} */
+
+/* class selector */
+/* .para{
+    background-color: red;
+} */
+
+
+/* Element selector */
+/* p{
+    background-color: aqua;
+}
+
+div{
+    background-color: chocolate;
+} */
+
+/* grouping selector */
+/* p,div{
+    background-color: darkorchid;
+} */
+
+/* #container
+{
+    color: olive;
+}
+.container
+{
+    color: blue;
+}	
+div
+{
+    color: yellow;
+} */
+
+/* h1 {
+    -webkit-text-fill-color: color;
+    -webkit-text-stroke-color: color;
+    -webkit-text-stroke-width: length;
+    }
+
+#para2
+{
+    font-size: xx-large;
+    font-weight: bold;
+    -webkit-text-fill-color: red;
+-webkit-text-stroke-color: yellow;
+-webkit-text-stroke-width: 3px;
+
+} */
+
+h2{
+    background-image: url(beautiful-flowers.jpg );
+    background-position: 95% 85% 50% 50%;
+    
+    /* background-repeat: no-repeat 0 100%; */
+    background-repeat: repeat-x;
+    /* background-origin: border-box;
+    background-origin: content-box;
+    background-origin: padding-box; */
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    border: 2px solid red;
+    /* background-clip: border-box;
+    background-clip: padding-box;
+    background-clip: content-box; */
+}
+
+.box1
+{  
+border:10px; 
+border-style: solid;  
+box-shadow:2px 2px 4px 3px red;
+width:200px; 
+text-shadow: 5px 5px 10px darkgreen;
+width : 300px;
+}
